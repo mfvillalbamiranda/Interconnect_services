@@ -27,9 +27,7 @@ En cada archivo, la columna customerID (ID de cliente) contiene un código únic
 -->
 
 ## Objetivo de negocio
-- Contexto: El operador de telecomunicaciones Interconnect busca mitigar proactivamente la pérdida de su base de clientes y la erosión de sus ingresos recurrentes.
-- Meta: Desarrollar e implementar un prototipo predictivo basado en Machine Learning capaz de identificar de manera anticipada la tasa de cancelación (churn) de los usuarios.
-- Utilidad: Facultar al equipo de marketing de Interconnect para ejecutar campañas de retención ultra-dirigidas, ofreciendo de forma quirúrgica códigos promocionales y planes especiales de fidelización exclusivamente a los clientes que presentan intenciones de abandonar la compañía, maximizando así la rentabilidad de los incentivos.
+El operador de telecomunicaciones Interconnect busca mitigar proactivamente la pérdida de su base de clientes y la erosión de sus ingresos recurrentes. Su meta es desarrollar e implementar un prototipo predictivo basado en Machine Learning capaz de identificar de manera anticipada la tasa de cancelación (churn) de los usuarios. Esto con el fin de ayudar al equipo de marketing de Interconnect a ejecutar campañas de retención ultra-dirigidas, ofreciendo de forma precisa códigos promocionales y planes especiales de fidelización exclusivamente a los clientes que presentan intenciones de abandonar la compañía, maximizando así la rentabilidad de los incentivos.
 
 ## Descripción del dataset
 Los datos iniciales se consolidaron mediante la unificación de cuatro fuentes de información distintas, todas vinculadas a través de la columna de identificación clave customerID:
@@ -68,6 +66,6 @@ El éxito industrial y la validación técnica del proyecto se rigieron por las 
 - Resultado del Ganador: Las arquitecturas de potenciación por gradiente (particularmente CatBoost y LightGBM) demostraron el desempeño más robusto, alcanzando de manera consistente métricas de AUC-ROC en el set de prueba superiores a 0.82 y 0.84 respectivamente, superando holgadamente el desempeño del clasificador base y garantizando una excelente lectura de patrones de negocio no lineales.
 
 ## Conclusiones
-- Viabilidad del Proyecto: El proyecto de ciencia de datos demostró de forma concluyente que la información transaccional y contractual provista por el departamento de marketing posee un alto poder predictivo para modelar el comportamiento de abandono.
-- Diagnóstico del Perfil de Riesgo: El análisis exploratorio intermedio reflejó que factores vinculados al tipo de contrato (usuarios con renovación mes a mes) y cargos financieros elevados incrementan significativamente el peligro de deserción.
-- Impacto Comercial: Al desplegar el modelo ganador de Gradient Boosting, Interconnect contará con un sistema inteligente de alerta temprana automatizado. Esto les permitirá interceptar a una gran porción de clientes en riesgo antes de que formalicen su baja, optimizando la asignación de presupuestos promocionales del equipo de marketing y resguardando de forma directa la rentabilidad de la compañía.
+- El proyecto demostró de forma concluyente que la información transaccional y contractual provista por el departamento de marketing posee un alto poder predictivo para modelar el comportamiento de abandono.
+- El análisis exploratorio intermedio reflejó que factores vinculados al tipo de contrato (usuarios con renovación mes a mes) y cargos financieros elevados incrementan significativamente el peligro de deserción.
+- Al desplegar el modelo ganador de Gradient Boosting, Interconnect contará con un sistema inteligente de alerta temprana automatizado. Esto les permitirá interceptar a una gran porción de clientes en riesgo antes de que formalicen su baja, optimizando la asignación de presupuestos promocionales del equipo de marketing y resguardando de forma directa la rentabilidad de la compañía.
